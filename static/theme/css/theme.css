@@ -1,12 +1,17 @@
 .container {
-    padding: 0;
+    padding: 0 15px;
 }
 .container-title {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .container-title > h1 {
-    font-size: 90px;
+    font-size: 60px;
+}
+@media (min-width: 768px) {
+    .container-title > h1 {
+        font-size: 90px !important;
+    }
 }
 .container-title,
 .container-blog-list,
@@ -50,8 +55,7 @@
 }
 .navbar-nav > li > a {
     text-align: right;
-    padding-right: 0;
-    min-width: 100px;
+    padding: 0 0 0 30px;
 }
 
 .blog-list-detail {
@@ -126,6 +130,20 @@ footer {
     background-color: transparent;
     border: none;
 }
+.nav-footer {
+    text-align: center;
+}
 .nav-footer > ul {
     width: 100%;
+    margin-left: 0;
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse,
+.navbar-toggle {
+    margin: 0;
+}
+.navbar-brand {
+    padding: 0;
 }
