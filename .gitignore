@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+CACHE/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+cover/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# Virtual Environment
+venv/
+
+# Database
+*/db.sqlite3
+
+# Vim Swamp file
+*.swp
+
+.DS_Store
+bower_components/
+
+*/SearchThrift*.py
+.idea/*
+*.rdb
+
+# env
+.env
+
+# vim
+.*.sw*
+
+# automatically generated docker-compose.build.yml for deployment
+docker-compose.build.yml
+
