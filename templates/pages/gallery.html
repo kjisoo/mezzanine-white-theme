@@ -6,12 +6,14 @@
 <link rel="stylesheet" href="{% static "mezzanine/css/magnific-popup.css" %}">
 {% endblock extra_css %}
 
-{% block main %}
-{{ block.super }}
-
+{% block content %}
 {% editable page.gallery.content %}
 {{ page.gallery.content|richtext_filters|safe }}
 {% endeditable %}
+{% endblock %}
+
+{% block main %}
+{{ block.super }}
 
 <div class="gallery row">
 {% with page.gallery.images.all as images %}
