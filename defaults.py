@@ -17,8 +17,8 @@ register_setting(
 )
 
 register_setting(
-    name="LINKDIN_NAME",
-    label="linkdin name",
+    name="LINKEDIN_NAME",
+    label="linkedin name",
     description="",
     editable=True,
     default='',
