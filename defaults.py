@@ -17,8 +17,8 @@ register_setting(
 )
 
 register_setting(
-    name="LINKDIN_NAME",
-    label="linkdin name",
+    name="LINKEDIN_NAME",
+    label="linkedin name",
     description="",
     editable=True,
     default='',
@@ -35,6 +35,6 @@ register_setting(
 register_setting(
     name="TEMPLATE_ACCESSIBLE_SETTINGS",
     editable=False,
-    default=("GITHUB_NAME", "FACEBOOK_NAME", "LINKDIN_NAME", "COPYRIGHT", ),
+    default=("GITHUB_NAME", "FACEBOOK_NAME", "LINKEDIN_NAME", "COPYRIGHT", ),
     append=True,
 )
