@@ -150,3 +150,9 @@ footer {
 pre {
     padding: 0;
 }
+.share-twitter { 
+    background-color: #00A3D4;
+}
+.share-facebook {
+    background-color: #4667A6;
+}
